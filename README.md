@@ -4,7 +4,7 @@ Callback be called when message box closed and first param is return of [Message
 
 ### Install
 
-- Add `#include "MsgBoxSync.au3"`, dll binary is embbedded in itself, you no need to build.
+- Add `#include "MsgBoxSync.au3"`, dll binary is embedded in itself, you no need to build.
 
 ### Build
 
