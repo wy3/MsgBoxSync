@@ -11,7 +11,7 @@ Callback be called when message box closed and first param is return of [Message
 - **GCC**:
     ```batch
     $ cd MsgBoxSync
-    $ gcc -shared -DBUILD_AS_DLL -o MsgBoxSync.dll src/main.c
+    $ gcc -shared -DBUILD_AS_DLL -o MsgBoxSync.dll src/main.c -luser32
     ```
 
 - **Cl/MSVC compiler**:
@@ -19,7 +19,7 @@ Callback be called when message box closed and first param is return of [Message
     $ cd MsgBoxSync
     $ cd src
     $ cl -cl /MT /O2 /c /DBUILD_AS_DLL main.c
-    $ link /DLL /IMPLIB:MsgBoxSync.lib /OUT:MsgBoxSync.dll main.obj 
+    $ link /DLL /IMPLIB:MsgBoxSync.lib /OUT:MsgBoxSync.dll main.obj user32.lib
     ```
 
 ### Usage
