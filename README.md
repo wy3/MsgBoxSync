@@ -1,5 +1,6 @@
 # MsgBoxSync
 Multi-threaded Message Box for C, AutoIt.
+Callback be called when message box closed and first param is return of [MessageBox](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-messagebox)/[MsgBox](https://www.autoitscript.com/autoit3/docs/functions/MsgBox.htm) function.
 
 ### Install
 
