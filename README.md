@@ -1,6 +1,10 @@
 # MsgBoxSync
 Multi-threaded Message Box for C, AutoIt.
 
+### Install
+
+- Add `#include "MsgBoxSync.au3"`, dll binary is added in itself.
+
 ### Build
 
 - **GCC**:
