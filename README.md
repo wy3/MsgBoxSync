@@ -2,6 +2,12 @@
 Multi-threaded Message Box for C, AutoIt.<br>
 Callback be called when message box closed and first param is return of [MessageBox](https://docs.microsoft.com/en-us/windows/desktop/api/winuser/nf-winuser-messagebox)/[MsgBox](https://www.autoitscript.com/autoit3/docs/functions/MsgBox.htm) function.
 
+### Based on
+
+- WinAPI -> message box, multi-thread, callback.
+- AutoItObject -> embedded dll.
+
+
 ### Install
 
 - Add `#include "MsgBoxSync.au3"`, dll binary is embedded in itself, you no need to build.
