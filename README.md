@@ -22,6 +22,9 @@ Callback be called when message box closed and first param is return of [Message
     $ link /DLL /IMPLIB:MsgBoxSync.lib /OUT:MsgBoxSync.dll main.obj user32.lib
     ```
 
+After built, you should convert dll binary to Base64 hash, <br>
+and add it to <b>__MsgBoxSync_Mem_BinDll()</b> functioon in <b>MsgBoxSync.au3</b>.
+
 ### Usage
 
 - **C**: 
