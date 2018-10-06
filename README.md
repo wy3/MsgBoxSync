@@ -29,8 +29,6 @@ Multi-threaded Message Box for C, AutoIt.
     MsgBoxSync($uFlags, $sTitle, $sText, $hWnd = null, $fnOnMsgBoxClosed = null)
     ```
 
-<br>
-
 ### Example
 
 ```au3
