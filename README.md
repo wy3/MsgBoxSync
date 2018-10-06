@@ -1,6 +1,22 @@
 # MsgBoxSync
 Multi-threaded Message Box for C, AutoIt.
 
+### Build
+
+- **GCC**:
+    ```batch
+    $ cd MsgBoxSync
+    $ gcc -shared -DBUILD_AS_DLL -o MsgBoxSync.dll src/main.c
+    ```
+
+- **Cl/MSVC compiler**:
+    ```batch
+    $ cd MsgBoxSync
+    $ cd src
+    $ cl -cl /MT /O2 /c /DBUILD_AS_DLL main.c
+    $ link /DLL /IMPLIB:MsgBoxSync.lib /OUT:MsgBoxSync.dll main.obj 
+    ```
+
 ### Usage
 
 - **C**: 
