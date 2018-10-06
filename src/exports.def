@@ -1,0 +1,4 @@
+LIBRARY MsgBoxSync.dll
+
+EXPORTS
+MsgBoxSync
